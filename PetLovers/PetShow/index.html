@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/ x-icon">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="../Login/js/CardsPets.js" defer></script>
+
+  <title>PetLovers</title>
+</head>
+
+<body>
+  <!-- START HERE -->
+  <!--Nav aonde fica o o inicio home, local, contato-->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Agencia PetLovers</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="./blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="./servicos.html" class="nav-link">Serviço</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Login/login.html" class="nav-link">Criar Conta</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Carousel BootStrap Parte Inicial-->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-nome d-sm-block text-right mb-5">
+              <h1 class="display-3">Titulo 1</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-warning btn-lg">Entrar em Contato</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-nome d-sm-block text-right mb-5">
+              <h1 class="display-3">Titulo 2</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-warning btn-lg">Entrar em Contato</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-nome d-sm-block text-right mb-5">
+              <h1 class="display-3">Titulo 3</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-warning btn-lg">Entrar em Contato</a>
+            </div>
+          </div>
+        </div>
+        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--Fechamento do slide Carousel do bootstrap-->
+
+  <!--Abre icon services-->
+  <section id="home-icons" class="py-5">
+    <div class="container">
+      <!--Icones em linha "row"-->
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-cog fa-3x mb-2"></i>
+          <h3>Serviço 01</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, asperiores?</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-cloud fa-3x mb-2"></i>
+          <h3>Serviço 02</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, asperiores?</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-cart-plus fa-3x mb-2"></i>
+          <h3>Serviço 03</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, asperiores?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--fecha icon services-->
+
+  <!-- Abre o Titulo-->
+  <section id="home-titulo" class="p-5">
+    <div class="sobreposicao">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1>Você gostaria de adotar um animal ?</h1>
+            <p class="d-nome d-md-block">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos sapiente neque corporis dicta. Beatae!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--FEcha o Titulo-->
+
+  <!--Informção sectionn-->
+  <section id="info" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+        </div>
+        <div class="col-md-6">
+          <img src="./img/imagem-infor01.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Fechamento da informação section-->
+
+<!-- Formulário para cadastrar novos pets -->
+<section id="cadastro-pet" class="p-5">
+  <div class="container">
+    <h2>Cadastrar Novo PetLovers </h2>
+    <div id="feedbackMessage" class="alert alert-success d-none" role="alert"></div>
+    <form id="form-cadastro-pet">
+      <div class="form-group">
+        <label for="nome">Nome do PetLovers</label>
+        <input type="text" id="nome" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="raca">Raça do PetLovers</label>
+        <input type="text" id="raca" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="cor">Cor do PetLovers</label>
+        <input type="text" id="cor" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="image">Foto do PetLovers</label>
+        <input type="text" id="image" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+  </div>
+</section>
+
+<!-- Lista de pets -->
+<section id="lista-pets" class="p-5">
+  <div class="container">
+    <h2>PetLovers Cadastrados</h2>
+    <div id="pets-container" class="row"></div>
+  </div>
+</section>
+
+
+
+  <!-- Campo de pesquisa -->
+  <section id="pesquisa-pet" class="p-5">
+    <div class="container">
+      <h2>Pesquisar PetLovers</h2>
+      <input type="text" id="search" class="form-control" placeholder="Digite o nome do pet...">
+    </div>
+  </section>
+
+  <!-- Lista de pets -->
+  <section id="lista-pets" class="p-5">
+    <div class="container">
+      <h2>PetLovers Cadastrados</h2>
+      <div id="pets-container" class="row"></div>
+    </div>
+  </section>
+
+  <!-- Video do youtube empresa-->
+  <section id="video-play">
+    <div class="subreposicao">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a href="#" class="video" data-video="https://www.youtube.com/embed/z4NbkxLUrY4" data-toggle="modal"
+              data-target="#videoModal"> <i class="fas fa-play fa-3x-"></i>
+            </a>
+            <h1>Veja o que fazemos</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Video do youtube empresa fechamento-->
+
+  <!--Video Modal-->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Script do Site BootStrap-->
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
